@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
     "name": "Emmas-scraper",
     "version": "0.0.1",
     "homepage": "https://github.com/EMZdot/CODING",
     "description": "scraping",
+=======
+    "name": "website",
+    "version": "0.0.1",
+    "homepage": "mainpage",
+    "description": "website function",
+>>>>>>> dd25a0807160461d49d1d4477997374b1185e0ca
     "author": "Emma",
     "main": "app.js",
     "dependencies": {
