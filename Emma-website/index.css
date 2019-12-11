@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Henry';
+  src: url('fonts/HenryTrial-Italic.otf') format('opentype');
+}
+
+<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed"rel="stylesheet">* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  background-size: 2560px;
+  /*background: repeating-linear-gradient(
+  to right,
+  #ffc9fd,
+  #000000 10px);*/
+
+/*-webkit-animation: AnimationName 25s ease infinite;*/
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 100%;
+
+}
+
+
+/* .start {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 100%;
+
+} */
+/* Create four equal columns that sits next to each other */
+
+
+.row img:hover{
+  transition: all 0.65s;
+  transform: rotateY(360deg);
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1280px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 33% 0%
+    }
+
+    50% {
+      background-position: 69% 100%
+    }
+
+    100% {
+      background-position: 32% 0%
+    }
+  }

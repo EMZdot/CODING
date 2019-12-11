@@ -1,0 +1,14 @@
+{
+    "name": "Emmas-scraper",
+    "version": "0.0.1",
+    "homepage": "https://github.com/EMZdot/CODING",
+    "description": "scraping",
+    "author": "Emma",
+    "main": "app.js",
+    "dependencies": {
+        "nodemon": "latest",
+        "express": "latest",
+        "request": "latest",
+        "cheerio": "latest"
+    }
+}

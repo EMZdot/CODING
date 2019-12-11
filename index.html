@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="females.js"></script>
+  <script type="text/javascript">
+    function load_inmate_images() {
+      var div = document.getElementById('data');
+
+      for (var i = 0; i < female_output.length; i++) {
+        //male_output.100 when i want to scrape only the first 100 profiles!!!!!
+
+        var img = "<img class='tile' src='http://" + female_output[i] + "'>";
+        div.innerHTML = div.innerHTML + img;
+
+      }
+    }
+  </script>
+
+  <style>
+    .tile {
+      width: 150px;
+      height: auto;
+      margin: 5px;
+    }
+  </style>
+</head>
+
+<body onload="load_inmate_images()">
+  <div id="data">
+  </div>
+</body>
+
+</html>

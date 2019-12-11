@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Henry';
+  src: url('fonts/HenryTrial-Italic.otf') format('opentype');
+}
+
+<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed"rel="stylesheet">* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url("images/background.png");
+  background-size: cover; */
+  background-color: white;
+  background-size: 2560px;
+  /*background: repeating-linear-gradient(
+  to right,
+  #ffc9fd,
+  #000000 10px);*/
+
+
+  -webkit-animation: AnimationName 25s ease infinite;
+}
+
+.div {
+  font-family: 'Henry';
+  font-size: 12pt;
+  /*mix-blend-mode: difference;*/
+  display: inline-block;
+  /*
+
+    border: 1px solid black;
+    background-color: rgb(119, 90, 219);
+
+    width: 500px;
+    height: 500px;
+
+    margin-bottom: 10px;
+    padding-left:20px;
+    padding-bottom: 5px;
+    */
+}
+
+.videoContainer{
+  width: 300px;
+  height: 800px;
+  z-index: 100;
+  display: flex;
+  position: absolute;
+}
+
+video {
+  transform: scale(2);
+}
+
+
+
+.mainpage {
+  flex-grow: 2;
+}
+
+
+.search {
+  font-family: Helvetica;
+  font-weight: lighter;
+  width: auto;
+  height: auto;
+  font-size: 20pt;
+  position: absolute;
+          top: 93%;
+          left: 93%;
+          margin-right: -50%;
+          -webkit-transform: translate(-50%, 0%);
+}
+
+
+.heart {
+content: url("images/heart.png");
+width: 100px;
+height: auto;
+position: absolute;
+        top: 400px;
+        left: 50%;
+        z-index: 130;
+        margin-right: -50%;
+        -webkit-transform: translate(-50%, 0%);
+}
+
+.whiteleft {
+  content: url("images/blank.jpg");
+  width: 300px;
+  height: 100%;
+  z-index: 120;
+  margin-top: -150px;
+  margin-left: -200px;
+  position: fixed;
+}
+
+.whiteright {
+  content: url("images/blankright.jpg");
+  width: auto;
+  height: 1000px;
+  z-index: 120;
+  margin-top: -150px;
+  margin-left: 600px;
+  position: fixed;
+}
+
+.whitetop {
+  content: url("images/blanktop.jpg");
+  width: auto;
+  height: auto;
+  z-index: 120;
+  margin-top: -320px;
+  margin-left: 0px;
+  position: fixed;
+}
+
+
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 32% 0%
+    }
+
+    50% {
+      background-position: 69% 100%
+    }
+
+    100% {
+      background-position: 32% 0%
+    }
+  }

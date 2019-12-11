@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Henry';
+  src: url('fonts/HenryTrial-Italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Adieu';
+  src: url('fonts/Adieu-Regular.otf') format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  background-size: 2560px;
+}
+
+
+.about {
+  font-family: Helvetica;
+  width: 630px;
+  height: 50px;
+  margin-left: 550px;
+  margin-top: 300px;
+  position: fixed;
+  font-weight: lighter;
+  font-size: 15pt;
+  line-height: 17pt;
+}
+
+.back {
+  font-family: Helvetica;
+  width: 100px;
+  height: 50px;
+  margin-left: 600px;
+  margin-top: 600px;
+  position: fixed;
+  font-weight: lighter;
+  font-size: 15pt;
+  line-height: 17pt;
+}
+
+.image1 {
+  content: url("images/aboutback.png");
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+
+.who {
+  font-family: "Adieu";
+  width: 700px;
+  height: auto;
+  margin-left: 600px;
+  margin-top: 240px;
+  position: fixed;
+  font-weight: lighter;
+  font-size: 20pt;
+  line-height: 15pt;
+}
+
+/* .image2 {
+  content: url("images/img2.jpg");
+  width: 500px;
+  left: 200px;
+  top: 50px;
+  height: auto;
+  position: fixed;
+}
+
+.image3 {
+  content: url("images/img3.jpg");
+  width: 500px;
+  left: 400px;
+  top: 50px;
+  height: auto;
+  position: fixed;
+}
+.image4 {
+  content: url("images/img4.jpg");
+  width: 500px;
+  left: 50px;
+  top: 50px;
+  height: auto;
+  position: fixed;
+} */

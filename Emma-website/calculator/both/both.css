@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Henry';
+  src: url('fonts/HenryTrial-Italic.otf') format('opentype');
+}
+
+<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed"rel="stylesheet">* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url("images/background.png");
+  background-size: cover; */
+  background-color: white;
+  background-size: 2560px;
+  /*background: repeating-linear-gradient(
+  to right,
+  #ffc9fd,
+  #000000 10px);*/
+
+
+  -webkit-animation: AnimationName 25s ease infinite;
+}
+
+.div {
+  font-family: 'Henry';
+  font-size: 12pt;
+  /*mix-blend-mode: difference;*/
+  display: inline-block;
+  /*
+
+    border: 1px solid black;
+    background-color: rgb(119, 90, 219);
+
+    width: 500px;
+    height: 500px;
+
+    margin-bottom: 10px;
+    padding-left:20px;
+    padding-bottom: 5px;
+    */
+}
+
+.spiral {
+content: url("images/spiral.png");
+width: 1600px;
+height: auto;
+position: fixed;
+left:40px;
+top:-320px;
+        -webkit-transform: translate(-50%, 0%);
+        -webkit-animation-name: spin;
+        -webkit-animation-duration: 4000ms;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+}
+
+
+.woman {
+  font-family: Helvetica;
+  font-weight: lighter;
+  width: auto;
+  height: auto;
+  font-size: 20pt;
+  position: absolute;
+  top: 440px;
+  left: 40%;
+}
+
+.man {
+  font-family: Helvetica;
+  font-weight: lighter;
+  width: auto;
+  height: auto;
+  font-size: 20pt;
+  position: absolute;
+  top: 440px;
+  left: 56%;
+}
+
+
+.heart {
+content: url("images/heart.png");
+width: 100px;
+height: auto;
+position: absolute;
+        top: 400px;
+        left: 50%;
+        z-index: 130;
+        margin-right: -50%;
+        -webkit-transform: translate(-50%, 0%);
+}
+
+@-webkit-keyframes spin {
+       from {
+           -webkit-transform: rotate(0deg);
+       } to {
+           -webkit-transform: rotate(360deg);
+       }
